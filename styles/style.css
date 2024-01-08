@@ -15,7 +15,7 @@ body{
     width: 1340px;
     height: 1100px;
     border-radius: 16px;
-    margin-top: 40px;
+    margin-top: 30px;
     
 }
 
@@ -24,18 +24,56 @@ body{
     text-align: center;
 }
 
-.new-year-start{
+.happy-happy{
     margin: 0;
     font-size: 40px;
     font-weight: 700;
     padding-top: 200px;
     font-family: Merriweather;
+    color: rgb(251, 251, 251);
 }
 
-.new-year-start-celebrate{
+.celebration-celebration{
     margin: 0;
     font-size: 80px;
     font-weight: 900;
     padding-top: 10px;
     font-family: Merriweather;
 }
+
+/* 65% off style */
+
+.new-year-discount{
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    margin-top: 0;
+    }
+
+.discount-percentage{
+    text-align: center;
+    padding: 0px auto;
+}
+
+.discount-percentage-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.new-year-start-celebrate{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.new-year-start-celebrate-catgry{
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
