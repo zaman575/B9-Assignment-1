@@ -255,3 +255,62 @@ font-family: Inter;
     font-weight: 400;
 }
 
+/* holiday section style */
+
+.holiday-sale{
+    margin: 0 auto;
+    width: 1340px;
+    height: 2500px;
+    border-radius: 16px;
+    margin-top: 30px; 
+    display: flex;
+}
+
+.holiday-info{
+    text-align: center;
+    margin: 0px;
+    width: 300px 300px;text-align: justify;
+}
+
+.hday-heading{
+color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+text-align: center;
+}
+
+.sale-50{
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+text-align: center;
+}
+
+.holiday-red{
+    color: #F00;
+}
+
+.sale-description{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 30px;
+text-align: justify;
+font-weight: 500;
+text-align: center;
+}
+
+.image-hday{
+    position: absolute;
+}
+
+.rect-1{
+    margin-right: 100px;
+}
+
+.grp-75{
+    margin-top: 400px;
+    margin-right: 100px;
+}
+
+/* awsome portfolio style */
