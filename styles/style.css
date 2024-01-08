@@ -1,7 +1,41 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Merriweather', serif;
     font-family: 'Inter', sans-serif;
+}
+
+/* Banner section style */
+
+.centre-item{
+    margin: 0 auto;
+    background-image: url("../images/Banner\ Image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1340px;
+    height: 1100px;
+    border-radius: 16px;
+    margin-top: 40px;
+    
+}
+
+.centre-item-list{
+    color: rgb(74, 194, 246);
+    text-align: center;
+}
+
+.new-year-start{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 200px;
+    font-family: Merriweather;
+}
+
+.new-year-start-celebrate{
+    margin: 0;
+    font-size: 80px;
+    font-weight: 900;
+    padding-top: 10px;
+    font-family: Merriweather;
 }
