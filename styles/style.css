@@ -366,7 +366,7 @@ text-align: center;
         text-align: justify; 
         margin-left: 390px; 
         font-size: 25px;
-        color: #070211;
+        color: #000000;
     }
 
     .mail-form-head{
@@ -405,3 +405,75 @@ text-align: center;
         padding: 10px;
         font-size: 20px;
     }
+
+    /* footer section style */
+
+    footer{
+        margin: 0;
+        width: 100%;
+        height: 500px;
+        background-color: #000000;
+        margin-top: 100px;
+    }
+
+    footer .footer-section {
+        display: flex;
+        justify-content: space-between;
+        color: #FFF;
+        
+    }
+
+    .footer-section .date-description{
+        width: 320px;
+        display: block;
+        padding-left: 100px;
+        padding-top: 70px;
+        font-size: 20px;
+    }
+
+    .footer-section .phn-web{
+        width: 300px;
+        display: block;
+        padding-right: 100px;
+        padding-top: 70px;
+        font-size: 20px;
+        
+    }
+
+    .icon-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        gap: 20px;
+        
+    }
+
+    .hrline{
+        margin: 20px 0;
+        opacity: 0.3;
+        padding-top: 10px;
+
+    }
+
+    .rights-unsubscribe{
+        display: flex;
+        color: #FFF;
+        justify-content: space-between;
+    }
+
+    .rights-unsubscribe .rights-2017{
+        width: 320px;
+        padding-left: 100px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .rights-unsubscribe .unsub-button{
+        width: 320px;
+        padding-right: 100px;
+        margin-top: 40px;
+    }
+
+
+    
