@@ -469,10 +469,16 @@ text-align: center;
         font-size: 20px;
     }
 
-    .rights-unsubscribe .unsub-button{
-        width: 320px;
-        padding-right: 100px;
-        margin-top: 40px;
+.unsub-button{
+    padding-top: 30px; 
+    color: #FFF;
+    background-color: none;
+}
+  .unsub-button .button{
+    text-decoration: none;
+    margin-right: 300px;
+    cursor: pointer;
+    font-size: 20px;
     }
 
 
