@@ -316,18 +316,37 @@ text-align: center;
     margin: 0 auto;
     width: 1340px;
     height: 500px;
-    border-radius: 16px;
     margin-top: 950px;
     display: inline;
     position: sticky;
-    gap: 50px;
+    
 }
 
 .pft-text{
-    color: #F00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;   
+    font-size: 30px;
+}
+
+.the-best-gift .best-gift{
+    width: 300px;
+    color: #F00;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+    .p-origin-text{
+        margin-left: 100px;
+        margin-right: 200px;
+        color: blueviolet;
+    }
+
+.the-best-gift .awsome-port{
+    color: rgb(35, 21, 21);
+    font-size: 50px;
+    margin-left: 100px;
 }
 
 .image-pft{
@@ -343,7 +362,7 @@ text-align: center;
         width: 1340px;
         height: 500px;
         border-radius: 16px;
-        margin-top: 100px;  
+        margin-top: 400px;  
         background-color: rgba(248, 239, 239, 0.8);   
     }
 
@@ -398,12 +417,16 @@ text-align: center;
     form button{
         text-align: center;  
         display: flex;
-        background-color: rgb(162, 75, 32);
+        background-color: rgb(215, 53, 41);
         color: whitesmoke;
         border: none;
         border-top-right-radius: 8px;
         padding: 10px;
         font-size: 20px;
+    }
+
+    forrm button:hover{
+        cursor: pointer;
     }
 
     /* footer section style */
@@ -446,7 +469,10 @@ text-align: center;
         align-items: center;
         padding-top: 20px;
         gap: 20px;
-        
+    }
+
+    .icon-icon:hover{
+        cursor: pointer;
     }
 
     .hrline{
@@ -469,17 +495,24 @@ text-align: center;
         font-size: 20px;
     }
 
-.unsub-button{
-    padding-top: 30px; 
-    color: #FFF;
-    background-color: none;
-}
-  .unsub-button .button{
-    text-decoration: none;
-    margin-right: 300px;
-    cursor: pointer;
-    font-size: 20px;
+    .unsub-button{
+        padding-top: 30px; 
+        color: #FFF;
+        background-color: none;
+        text-decoration: none;
     }
+    .unsub-button .button{
+        
+        margin-right: 290px;
+        cursor: pointer;
+        font-size: 20px;
+        }
+    
+        .button:hover{
+            color: #F00;
+            font-weight: 700;
+        }
+
 
 
     
