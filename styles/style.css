@@ -343,13 +343,13 @@ text-align: center;
         width: 1340px;
         height: 500px;
         border-radius: 16px;
-        margin-top: 200px;  
-        background-color: antiquewhite;   
+        margin-top: 100px;  
+        background-color: rgba(248, 239, 239, 0.8);   
     }
 
     .mail-logo{
         text-align: center;
-        padding-top: 70px;
+        padding-top: 50px;
     }
 
     .subsc-heading{
@@ -369,12 +369,39 @@ text-align: center;
         color: #070211;
     }
 
-    .mail-form{
-        padding: ;
+    .mail-form-head{
+        text-align: center;
+        border: none;
+        text-decoration: none;
+        font-size: 20px
     }
 
-    .sub-btn{
+    form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+        height: 50px;
+        padding-left: 290px;
+    }
+
+    form input{
         text-align: center;  
         display: flex;
-        margin-left: 560px;
+        color: whitesmoke;
+        border: none;
+        border-bottom-left-radius:8px ;
+        padding: 10px;
+        font-size: 20px; 
+    }
+
+    form button{
+        text-align: center;  
+        display: flex;
+        background-color: rgb(162, 75, 32);
+        color: whitesmoke;
+        border: none;
+        border-top-right-radius: 8px;
+        padding: 10px;
+        font-size: 20px;
     }
