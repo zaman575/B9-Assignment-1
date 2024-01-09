@@ -24,7 +24,7 @@ body{
     text-align: center;
 }
 
-.happy-happy{
+.centre-item .happy-happy{
     margin: 0;
     font-size: 40px;
     font-weight: 700;
@@ -33,7 +33,7 @@ body{
     color: rgb(171, 229, 243);
 }
 
-.celebration-celebration{
+.centre-item .celebration-celebration{
     margin: 0;
     font-size: 80px;
     font-weight: 900;
@@ -335,3 +335,46 @@ text-align: center;
     width: 1340px;
     height: 600px;
     border-radius: 16px;}
+
+    /* subscribe section */
+
+    .subscribe-section{
+        margin: 0 auto;
+        width: 1340px;
+        height: 500px;
+        border-radius: 16px;
+        margin-top: 200px;  
+        background-color: antiquewhite;   
+    }
+
+    .mail-logo{
+        text-align: center;
+        padding-top: 70px;
+    }
+
+    .subsc-heading{
+        text-align: center;
+        margin: 0;
+        color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 45px;
+        font-weight: 500;
+    }
+
+    .subsc-description{
+        width: 550px;
+        text-align: justify; 
+        margin-left: 390px; 
+        font-size: 25px;
+        color: #070211;
+    }
+
+    .mail-form{
+        padding: ;
+    }
+
+    .sub-btn{
+        text-align: center;  
+        display: flex;
+        margin-left: 560px;
+    }
