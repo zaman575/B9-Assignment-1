@@ -260,16 +260,17 @@ font-family: Inter;
 .holiday-sale{
     margin: 0 auto;
     width: 1340px;
-    height: 1000px;
+    height: 50px;
     border-radius: 16px;
-    margin-top: 30px; 
+    margin-top: 50px; 
     display: flex;
 }
 
-.holiday-info{
+.hday-info{
     text-align: center;
     margin: 0px;
-    width: 300px 300px;text-align: justify;
+    width: 300px 300px;
+    text-align: justify;
 }
 
 .hday-heading{
@@ -278,6 +279,7 @@ font-family: Inter;
 font-size: 24px;
 font-weight: 500;
 text-align: center;
+/* padding-bottom: 0px; */
 }
 
 .sale-50{
@@ -300,11 +302,18 @@ font-weight: 500;
 text-align: center;
 }
 
-.rect-1{
-    margin-right: 100px;
- 
-}
 
+.image-grp{
+    background-image: url("../images/Rectangle1.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin: 0 auto;
+    width: 1340px;
+    height: 1000px;
+    border-radius: 16px;
+    margin-top: 10px; 
+
+}
 .grp-75{
     margin-top: 400px;
     margin-right: 100px;
@@ -316,9 +325,7 @@ text-align: center;
     margin: 0 auto;
     width: 1340px;
     height: 500px;
-    margin-top: 950px;
-    display: inline;
-    position: sticky;
+    margin-top: 200px;
     
 }
 
