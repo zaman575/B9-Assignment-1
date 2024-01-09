@@ -13,7 +13,7 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     width: 1340px;
-    height: 1100px;
+    height: 600px;
     border-radius: 16px;
     margin-top: 30px;
     
@@ -90,7 +90,7 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     width: 1340px;
-    height: 1100px;
+    height: 700px;
     border-radius: 16px;
     margin-top: 500px;
     display:flex;
@@ -132,11 +132,14 @@ width: 500px;
    padding: 10px;
    border: none;
    text-decoration: none;
-   background-color: rgb(206, 127, 30);
+   background: none;
    border-radius: 5px;
    color: #FFF;
 }
 
+.btn-join:hover{
+    cursor: pointer;
+}
 /* date place style */
 
 .date-place{
@@ -183,6 +186,10 @@ font-weight: 600;
    background-color: rgb(212, 33, 20);
    border-radius: 5px;
    color: #110101;
+}
+
+.btn-join-now:hover{
+    cursor: pointer;
 }
 
 
@@ -341,19 +348,17 @@ text-align: center;
     width: 300px;
     color: #F00;
     font-size: 30px;
-    margin-left: 100px;
+    margin-bottom: 0;
 }
 
     .p-origin-text{
-        margin-left: 100px;
-        margin-right: 200px;
         color: blueviolet;
     }
 
 .the-best-gift .awsome-port{
     color: rgb(35, 21, 21);
     font-size: 50px;
-    margin-left: 100px;
+    margin-top: 0;
 }
 
 .image-pft{
@@ -432,7 +437,7 @@ text-align: center;
         font-size: 20px;
     }
 
-    forrm button:hover{
+    form button:hover{
         cursor: pointer;
     }
 
@@ -506,13 +511,15 @@ text-align: center;
         padding-top: 30px; 
         color: #FFF;
         background-color: none;
-        text-decoration: none;
+       
     }
     .unsub-button .button{
         
         margin-right: 290px;
         cursor: pointer;
         font-size: 20px;
+        text-decoration: none;
+        color: #FFF;
         }
     
         .button:hover{
